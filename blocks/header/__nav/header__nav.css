@@ -1,0 +1,5 @@
+.header__nav {
+  display: flex;
+  align-items: stretch;
+  min-width: 100%-150px;
+}
