@@ -1,10 +1,9 @@
 .header {
+  display: flex;
+  align-items: flex;
+  justify-content: space-between;
+  overflow: hidden;
   height: 102px;
-  /* выше установили ограничения для секции */
   position: relative;
   background: rgba(0, 0, 0, 0.1);
-  display: flex;
-  flex-wrap: wrap;
-  align-content: center;
-  overflow: hidden;
 }
