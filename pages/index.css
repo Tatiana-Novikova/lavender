@@ -7,5 +7,7 @@
 @import url('../blocks/header/__cart-icon/header__cart-icon.css');
 @import url('../blocks/header/__nav/header__nav.css');
 
+@import url('../blocks/fresh-flowers/fresh-flowers.css');
+
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
