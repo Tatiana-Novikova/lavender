@@ -1,9 +1,11 @@
 .header {
   display: flex;
-  align-items: flex;
   justify-content: space-between;
-  overflow: hidden;
   height: 102px;
-  position: relative;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   background: rgba(0, 0, 0, 0.1);
+  z-index: 10;
 }
