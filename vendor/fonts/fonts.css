@@ -13,3 +13,10 @@
   src: url("Raleway-Medium.woff2") format("woff2"),
        url("Raleway-Medium.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Playfair';
+  font-style:  normal;
+  font-weight: 700;
+  src: url("PlayfairDisplay-Bold.ttf") format("ttf"),
+}
