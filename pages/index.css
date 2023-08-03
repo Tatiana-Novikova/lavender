@@ -7,11 +7,16 @@
 @import url('../blocks/header/__cart-icon/header__cart-icon.css');
 @import url('../blocks/header/__nav/header__nav.css');
 
+@import url('../blocks/cards/cards.css');
+
 @import url('../blocks/fresh-flowers/fresh-flowers.css');
 @import url('../blocks/fresh-flowers/__title/fresh-flowers__title.css');
 @import url('../blocks/fresh-flowers/__subtitle/fresh-flowers__subtitle.css');
 @import url('../blocks/fresh-flowers/__button/fresh-flowers__button.css');
 @import url('../blocks/fresh-flowers/__title-container/fresh-flowers__title-container.css');
+
+@import url('../blocks/new-arrivals/new-arrivals.css');
+@import url('../blocks/new-arrivals/__button/new-arrivals__button.css');
 
 @import url('../blocks/logo/logo.css');
 @import url('../blocks/logo/_place/logo_place_header.css');
