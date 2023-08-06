@@ -1,4 +1,5 @@
 .new-arrivals__button {
+  position: relative;
   margin: 48px auto 0;
   padding: 16px 94px 16px 79px;
   font-family: 'Raleway';

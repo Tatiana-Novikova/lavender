@@ -1,0 +1,11 @@
+.card__overlay-icon {
+  padding: 15px 17px;
+  height: 24px;
+  width: 21.85px;
+  background-color: #fff;
+  /* z-index: 2; */
+}
+
+.card__overlay-icon:hover {
+  visibility: visible;
+}

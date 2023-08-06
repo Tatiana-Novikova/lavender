@@ -20,7 +20,7 @@
             <li><a class="header__link" href="#" target="_blank">Contacts</a></li>
             <li>
               <a class="header__link" href="#" target="_blank">
-                <img class="header__cart-icon" src="./images/Cart.png" alt="иконка корзины">
+                <img class="header__cart-icon" src="./images/cart-white.svg" alt="иконка корзины">
               </a>
             </li>
           </ul>
@@ -36,28 +36,36 @@
       <section class="new-arrivals">
         <h2 class="section-title">New arrivals</h2>
         <ul class="cards">
-          <li class="cards__item">
-            <img class="cards__image" src="images/colorful-tulips.png" alt="фото тюльпанов">
-            <h3 class="cards__title">Colorful tulips</h3>
-            <p class="cards__description">from $5</p>
-          </li>
-          <li class="cards__item">
-            <img class="cards__image" src="images/light-carnations.png" alt="фото гвоздик">
-            <div class="cards__image-overlay">
-              <img class="cards__image-overlay-cart" src="images/Cart.png" alt="иконка корзины">
+          <li class="card">
+            <!-- <div class="card__icon-container">
+              <img class="card__overlay-icon" src="images/cart-black.svg" alt="иконка корзины">
+            </div> -->
+            <div class="card__overlay">
+              <img class="card__image" src="images/colorful-tulips.png" alt="фото тюльпанов">
             </div>
-            <h3 class="cards__title">Light carnations</h3>
-            <p class="cards__description">from $6</p>
+            <h3 class="card__title">Colorful tulips</h3>
+            <p class="card__description">from $5</p>
           </li>
-          <li class="cards__item">
-            <img class="cards__image" src="images/wild-flowers.png" alt="фото полевых цветов">
-            <h3 class="cards__title">Wild flowers</h3>
-            <p class="cards__description">from $10</p>
+          <li class="card">
+            <div class="card__overlay">
+              <img class="card__image" src="images/light-carnations.png" alt="фото гвоздик">
+            </div>
+            <h3 class="card__title">Light carnations</h3>
+            <p class="card__description">from $6</p>
           </li>
-          <li class="cards__item">
-            <img class="cards__image" src="images/gentle-hyacinths.png" alt="фото гиацинтов">
-            <h3 class="cards__title">Gentle hyacint</h3>
-            <p class="cards__description">from $7</p>
+          <li class="card">
+            <div class="card__overlay">
+              <img class="card__image" src="images/wild-flowers.png" alt="фото полевых цветов">
+            </div>
+            <h3 class="card__title">Light carnations</h3>
+            <p class="card__description">from $10</p>
+          </li>
+          <li class="card">
+            <div class="card__overlay">
+              <img class="card__image" src="images/gentle-hyacinths.png" alt="фото гиацинтов">
+            </div>
+            <h3 class="card__title">Colorful tulips</h3>
+            <p class="card__description">from $7</p>
           </li>
         </ul>
         <button class="new-arrivals__button">View all</button>

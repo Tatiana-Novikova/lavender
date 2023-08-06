@@ -1,0 +1,14 @@
+.card__overlay {
+  position: relative;
+  height: 330px;
+}
+
+.card__overlay::before {
+  content: '';
+  display: block;
+  padding: 15px 17px;
+  height: 24px;
+  width: 21.85px;
+  background-color: #fff;
+  background-image: url('../../../images/cart-black.svg');
+}

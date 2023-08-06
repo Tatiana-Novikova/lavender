@@ -1,4 +1,4 @@
-.cards__item {
+.card {
   margin: 0 58px 0 0;
   padding: 0;
   display: flex;
@@ -6,9 +6,14 @@
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  max-width: 240px;
+  width: 266px;
+  height: 438px;
 }
 
-.cards__item:nth-of-type(4) {
+.card:hover {
+  cursor: pointer;
+}
+
+.card:nth-of-type(4) {
   margin-right: 0;
 }
