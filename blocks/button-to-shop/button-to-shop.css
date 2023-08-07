@@ -1,0 +1,12 @@
+.button-to-shop {
+  padding: 0;
+  width: 21.85px;
+  height: 24px;
+  background: center url('../../images/cart-white.svg');
+  background-size: cover;
+  border: none;
+}
+
+.button-to-shop:hover {
+  cursor: pointer;
+}
