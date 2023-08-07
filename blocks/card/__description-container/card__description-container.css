@@ -1,4 +1,7 @@
-.card__description {
+.card__description-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: 'Playfair Display';
   font-size: 25px;
   font-weight: 400;

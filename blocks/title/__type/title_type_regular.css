@@ -1,8 +1,7 @@
-.section-title {
-  font-family: 'Playfair Display';
+.title_type_regular {
+  margin: 0 0 58px 0;
   font-size: 40px;
   font-weight: 700;
   line-height: 53px;
-  letter-spacing: 0.03em;
   text-align: center;
 }

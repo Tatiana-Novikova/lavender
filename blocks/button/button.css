@@ -1,6 +1,4 @@
-.new-arrivals__button {
-  position: relative;
-  margin: 48px auto 0;
+.button {
   padding: 16px 94px 16px 79px;
   font-family: 'Raleway';
   font-size: 20px;
@@ -9,4 +7,12 @@
   letter-spacing: 0.03em;
   text-align: center;
   color: #2D3040;
+  background: #fff;
+  border: none;
+}
+
+.button:hover {
+  cursor: pointer;
+  color: #fff;
+  background: #2D3040;
 }

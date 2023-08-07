@@ -1,0 +1,4 @@
+.cards_place_our-bouquets {
+  display: grid;
+  grid-template-columns: max-content;
+}

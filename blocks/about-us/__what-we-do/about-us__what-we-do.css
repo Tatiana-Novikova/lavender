@@ -1,0 +1,6 @@
+.about-us__what-we-do {
+  display: flex;
+  justify-content: right;
+  height: 425px;
+  background-image: url('../../../images/what-we-do.png');
+}
