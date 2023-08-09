@@ -1,0 +1,9 @@
+.button-to-shop_place_card {
+  background: no-repeat center #fff url('../../../images/cart-black.svg');
+  background-size: contain;
+}
+      
+.button-to-shop_place_card:hover {
+  background: no-repeat center rgba(45, 48, 64, 1) url('../../../images/cart-white.svg');
+  background-size: contain;
+}

@@ -1,7 +1,8 @@
-.card__description-container {
+.card__content {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  margin: 30px 0 0 0;
   font-family: 'Playfair Display';
   font-size: 25px;
   font-weight: 400;
