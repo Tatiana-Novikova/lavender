@@ -11,6 +11,9 @@
 @import url('../blocks/title/__type/title_type_main.css');
 @import url('../blocks/title/__type/title_type_regular.css');
 
+@import url('../blocks/subscription-form/subscription-form.css');
+@import url('../blocks/subscription-form/__input/subscription-form__input.css');
+
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_place/button_place_fresh-flowers.css');
 @import url('../blocks/button/_place/button_place_new-arrivals.css');
@@ -50,8 +53,6 @@
 
 @import url('../blocks/our-bouquets/our-bouquets.css');
 
-@import url('../blocks/subscription/subscription.css');
-@import url('../blocks/subscription/__content/subscription__content.css');
-@import url('../blocks/subscription/__span/subscription__span.css');
-@import url('../blocks/subscription/__form/subscription__form.css');
-@import url('../blocks/subscription/__input/subscription__input.css');
+@import url('../blocks/footer/__subscription/footer__subscription.css');
+@import url('../blocks/footer/__subscription-content/footer__subscription-content.css');
+@import url('../blocks/footer/__subscription-span/footer__subscription-span.css');
