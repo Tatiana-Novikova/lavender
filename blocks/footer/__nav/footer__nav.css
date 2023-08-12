@@ -1,0 +1,9 @@
+.footer__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 102px;
+  width: 1440px;
+  background:rgba(45, 48, 64, 1);
+  z-index: 1;
+}
