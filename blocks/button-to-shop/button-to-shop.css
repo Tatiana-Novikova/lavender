@@ -1,19 +1,14 @@
 .button-to-shop {
-  position: absolute;
-  top: 137px;
-  left: 73px;
-  /* width: 120px;
-  height: 56px; */
   width: 21.85px;
   height: 24px;
   margin: 12px 44px;
-  background: no-repeat #fff center url('../../images/cart-black.svg');
+  background: no-repeat center url('../../images/cart-white.svg');
   background-size: cover;
   border: none;
 }
 
 .button-to-shop:hover {
   cursor: pointer;
-  background: no-repeat center rgba(45, 48, 64, 1) url('../../images/cart-white.svg');
+  background: no-repeat center url('../../images/cart-black.svg');
   background-size: cover;
 }

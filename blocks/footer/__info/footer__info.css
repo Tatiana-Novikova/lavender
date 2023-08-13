@@ -1,0 +1,7 @@
+.footer__info {
+  display: flex;
+  justify-content: space-between;
+  padding: 42px 237px 55px 100px;
+  background: rgba(45, 48, 64, 1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}

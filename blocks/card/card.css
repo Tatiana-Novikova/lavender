@@ -1,8 +1,8 @@
 .card {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   margin: 0 58px 0 0;
   padding: 0;
   text-align: center;

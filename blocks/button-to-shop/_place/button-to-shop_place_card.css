@@ -1,9 +1,26 @@
 .button-to-shop_place_card {
+  position: relative;
+  margin: 12px 44px;
+  width: 21.85px;
+  height: 24px;
   background: no-repeat center #fff url('../../../images/cart-black.svg');
-  background-size: contain;
+  background-size: cover;
+  border: none;
+}
+
+.button-to-shop_place_card:after {
+  position: absolute;
+  top: -137px;
+  left: 0;
+  content: '';
+  height: 330px;
+  width: 266px;
+  background: rgba(255, 255, 255, .5);
+  opacity: 0;
+  transition: all .4s ease;
 }
       
 .button-to-shop_place_card:hover {
   background: no-repeat center rgba(45, 48, 64, 1) url('../../../images/cart-white.svg');
-  background-size: contain;
+  opacity: 1;
 }

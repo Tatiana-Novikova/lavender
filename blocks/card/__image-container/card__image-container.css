@@ -1,11 +1,13 @@
-.card__overlay {
-  position: relative;
-}
-
-.card__overlay:before {
+.card__image-container {
   position: absolute;
   top: 0;
   left: 0;
+  width: 266px;
+  height: 330px;
+}
+
+.card__image-container:before {
+  display: flex;
   content: '';
   height: 100%;
   width: 100%;
@@ -14,6 +16,6 @@
   transition: all .4s ease;
 }
 
-.card__overlay:hover:before {
+.card__image-container:hover:before {
   opacity: 1;
 }
