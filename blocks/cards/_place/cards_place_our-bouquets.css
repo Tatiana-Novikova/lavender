@@ -1,4 +1,6 @@
 .cards_place_our-bouquets {
   display: grid;
-  grid-template-columns: max-content;
+  grid-template-columns: repeat(4, minmax(266px, auto));
+  grid-template-rows: repeat(auto, minmax(488px, auto));
+  grid-gap: 60px 58px;
 }

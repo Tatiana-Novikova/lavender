@@ -1,6 +1,6 @@
 .button-to-shop {
-  width: 21.85px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   margin: 12px 44px;
   background: no-repeat center url('../../images/cart-white.svg');
   background-size: cover;
@@ -9,6 +9,4 @@
 
 .button-to-shop:hover {
   cursor: pointer;
-  background: no-repeat center url('../../images/cart-black.svg');
-  background-size: cover;
 }

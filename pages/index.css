@@ -18,6 +18,7 @@
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/_place/button_place_fresh-flowers.css');
 @import url('../blocks/button/_place/button_place_new-arrivals.css');
+@import url('../blocks/button/_place/button_place_our-bouquets.css');
 @import url('../blocks/button/_place/button_place_subscription.css');
 
 @import url('../blocks/button-to-shop/button-to-shop.css');
@@ -30,16 +31,20 @@
 @import url('../blocks/header/__nav/header__nav.css');
 
 @import url('../blocks/cards/cards.css');
+@import url('../blocks/cards/_place/cards_place_new-arrivals.css');
 @import url('../blocks/cards/_place/cards_place_our-bouquets.css');
 
 @import url('../blocks/card/card.css');
-@import url('../blocks/card/__image-container/card__image-container.css');
+@import url('../blocks/card/__button-container/card__button-container.css');
+@import url('../blocks/card/__button-container/_place/card__button-container_place_our-bouquets.css');
 @import url('../blocks/card/__overlay/card__overlay.css');
 @import url('../blocks/card/__image/card__image.css');
 @import url('../blocks/card/__content/card__content.css');
 @import url('../blocks/card/__title/card__title.css');
 @import url('../blocks/card/__description/card__description.css');
 @import url('../blocks/card/__price/card__price.css');
+@import url('../blocks/card/__description-container/card__description-container.css');
+@import url('../blocks/card/_place/card_place_our-bouquets.css');
 
 @import url('../blocks/about-us/about-us.css');
 @import url('../blocks/about-us/__who-we-are/about-us__who-we-are.css');
@@ -65,6 +70,7 @@
 @import url('../blocks/footer/__phone-icon/footer__phone-icon.css');
 @import url('../blocks/footer/__opening-hours/footer__opening-hours.css');
 @import url('../blocks/footer/__socials/footer__socials.css');
+@import url('../blocks/footer/__socials-item/footer__socials-item.css');
 @import url('../blocks/footer/__nav/footer__nav.css');
 @import url('../blocks/footer/__links/footer__links.css');
 @import url('../blocks/footer/__link-item/footer__link-item.css');

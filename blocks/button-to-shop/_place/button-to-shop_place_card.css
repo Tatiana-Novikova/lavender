@@ -1,26 +1,38 @@
 .button-to-shop_place_card {
-  position: relative;
   margin: 12px 44px;
-  width: 21.85px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   background: no-repeat center #fff url('../../../images/cart-black.svg');
   background-size: cover;
   border: none;
 }
 
+.button-to-shop_place_card:hover {
+  cursor: pointer;
+}
+
 .button-to-shop_place_card:after {
   position: absolute;
-  top: -137px;
+  top: -50%;
+  left: -50%;
+  content: '';
+  height: 100%;
+  width: 100%;
+}
+
+.button-to-shop_place_card:hover:after {
+  background: transparent;
+}
+
+.button-to-shop_place_card:after {
+  position: absolute;
+  top: 0;
   left: 0;
   content: '';
-  height: 330px;
-  width: 266px;
-  background: rgba(255, 255, 255, .5);
-  opacity: 0;
-  transition: all .4s ease;
+  width: 120px;
+  height: 56px;
 }
-      
-.button-to-shop_place_card:hover {
+
+.button-to-shop_place_card:hover:after {
   background: no-repeat center rgba(45, 48, 64, 1) url('../../../images/cart-white.svg');
-  opacity: 1;
 }

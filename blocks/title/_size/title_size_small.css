@@ -1,5 +1,6 @@
 .title_size_small {
   margin: 0;
+  height: 30px;
   font-family: 'Playfair Display';
   font-size: 22px;
   font-weight: 700;
@@ -7,4 +8,5 @@
   letter-spacing: 0em;
   text-align: left;
   color: #fff;
+  cursor: default;
 }

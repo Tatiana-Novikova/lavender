@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-  <meta charset="UTF-8" />
-    <meta name="description" content="Лэндинг для цветочного магазина" />
-    <meta name="author" content="Татьяна Новикова" />
-    <link rel="stylesheet" href="./style.css" />
+  <meta charset="UTF-8">
+    <meta name="description" content="Лэндинг для цветочного магазина">
+    <meta name="author" content="Татьяна Новикова">
+    <link rel="stylesheet" href="./style.css">
     <title>Lavender</title>
     <link rel="stylesheet" href="./pages/index.css">
   </head>
@@ -32,12 +32,14 @@
     </section>
     <section class="new-arrivals">
       <h2 class="title title_size_regular">New arrivals</h2>
-      <ul class="cards">
+      <ul class="cards cards_place_new-arrivals">
         <li class="card">
           <div class="card__overlay">
-            <button class="button-to-shop_place_card" type="button"></button>
+            <div class="card__button-container">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
+            <img class="card__image" src="images/colorful-tulips.png" alt="фото тюльпанов">
           </div>
-          <img class="card__image" src="images/colorful-tulips.png" alt="фото тюльпанов">
           <div class="card__content">
             <h3 class="card__title">Colorful tulips</h3>
             <p class="card__description">from $
@@ -47,6 +49,9 @@
         </li>
         <li class="card">
           <div class="card__overlay">
+            <div class="card__button-container">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/light-carnations.png" alt="фото гвоздик">
           </div>
           <div class="card__content">
@@ -58,6 +63,9 @@
         </li>
         <li class="card">
           <div class="card__overlay">
+            <div class="card__button-container">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/wild-flowers.png" alt="фото полевых цветов">
           </div>
           <div class="card__content">
@@ -69,6 +77,9 @@
         </li>
         <li class="card">
           <div class="card__overlay">
+            <div class="card__button-container">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/gentle-hyacinths.png" alt="фото гиацинтов">
           </div>
           <div class="card__content">
@@ -79,105 +90,140 @@
           </div>
         </li>
       </ul>
-      <button class="button button_place_new-arrivals">View all</button>
+      <button class="button button_place_new-arrivals" type="button">View all</button>
     </section>
     <section class="about-us">
       <h2 class="title title_size_regular">About us</h2>
       <div class="about-us__who-we-are">
         <p class="about-us__who-we-are-description">Lavender is a family-owned online florist based <br>
           in Scottsdale, Arizona. Since 1972, we have been dedicated to providing our customers with fresh 
-          flowers and unique gifts to express their thoughts and feelings</p>
+          flowers and unique gifts to express their thoughts and feelings
+        </p>
       </div>
       <div class="about-us__what-we-do">
         <p class="about-us__what-we-do-description">We work with thousands of florists nationwide so you can 
           send gifts to loved ones across the country. <br>We are experts in gift baskets, luxury gifts, plants, 
-          flowers and all items that you would find in a flower shop</p>
+          flowers and all items that you would find in a flower shop
+        </p>
+      </div>
     </section>
     <section class="our-bouquets">
       <h2 class="title title_size_regular">Our bouquets</h2>
-      <ul class="cards">
-        <li class="card">
+      <ul class="cards cards_place_our-bouquets">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/sweetness.png" alt="фото букета sweetness">
           </div>
-          <h3 class="card__title">Sweetness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">25</span>
+          <div class="card__content">
+            <h3 class="card__title">Sweetness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$25</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/pureness.png" alt="фото букета pureness">
           </div>
-          <h3 class="card__title">Pureness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">25</span>
+          <div class="card__content">
+            <h3 class="card__title">Pureness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$25</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/tenderness.png" alt="фото букета tenderness">
           </div>
-          <h3 class="card__title">Tenderness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">37</span>
+          <div class="card__content">
+            <h3 class="card__title">Tenderness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$37</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/shyness.png" alt="фото букета shyness">
           </div>
-          <h3 class="card__title">Shyness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">20</span>
+          <div class="card__content">
+            <h3 class="card__title">Shyness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$20</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/loveliness.png" alt="фото букета loveliness">
           </div>
-          <h3 class="card__title">Loveliness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">65</span>
-          </div>
+          <div class="card__content">
+            <h3 class="card__title">Loveliness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$65</p>
+            </div>
+        </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/softnes.png" alt="фото букета softness">
           </div>
-          <h3 class="card__title">Softness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">65</span>
+          <div class="card__content">
+            <h3 class="card__title">Softness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$65</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/easiness.png" alt="фото букета easiness">
           </div>
-          <h3 class="card__title">Easiness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">22</span>
+          <div class="card__content">
+            <h3 class="card__title">Easiness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$22</p>
+            </div>
           </div>
         </li>
-        <li class="card">
+        <li class="card card_place_our-bouquets">
           <div class="card__overlay">
+            <div class="card__button-container card__button-container_place_our-bouquets">
+              <button class="button-to-shop_place_card" type="button"></button>
+            </div>
             <img class="card__image" src="images/unusualness.png" alt="фото букета unusualness">
           </div>
-          <h3 class="card__title">Unusualness</h3>
-          <div class="card__description-container">
-            <p class="card__description">$</p>
-            <span class="card__price">40</span>
+          <div class="card__content">
+            <h3 class="card__title">Unusualness</h3>
+            <div class="card__description-container">
+              <p class="card__price">$40</p>
+            </div>
           </div>
         </li>
       </ul>
-      <button class="button">View all</button>
+      <button class="button button_place_out-bouquets" type="button">View all</button>
     </section>
     <footer class="footer">
       <div class="footer__subscription">
@@ -222,18 +268,18 @@
         <div>
           <h3 class="title_size_small">Follow us</h3>
           <ul class="footer__column footer__socials">
-            <li>
-              <a class="footer__social-link" href="#" target="_blank">
+            <li class="footer__socials-item">
+              <a href="#" target="_blank">
                 <img class="footer__social-icon" src="./images/facebook-icon.svg" alt="иконка фэйсбука">
               </a>
             </li>
-            <li>
-              <a class="footer__social-link" href="#" target="_blank">
+            <li class="footer__socials-item">
+              <a href="#" target="_blank">
                 <img class="footer__social-icon" src="./images/instagram-icon.svg" alt="иконка инстаграма">
               </a>
             </li>
-            <li>
-              <a class="footer__social-link" href="#" target="_blank">
+            <li class="footer__socials-item">
+              <a href="#" target="_blank">
                 <img class="footer__social-icon" src="./images/twitter-icon.svg" alt="иконка твитера">
               </a>
             </li>

@@ -6,3 +6,7 @@
   line-height: 21px;
   color: #fff;
 }
+
+.footer__opening-hours:hover {
+  cursor: default;
+}

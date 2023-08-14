@@ -1,0 +1,28 @@
+.card__button-container {
+  /* display: flex;
+  align-content: center;
+  justify-content: center; */
+  width: 120px;
+  height: 56px;
+  position: absolute;
+  top: 137px;
+  left: 73px;
+  opacity: 0;
+}
+
+.card__button-container:hover {
+  background: #fff;
+  opacity: 1;
+  cursor: pointer;
+  transition: all .4s ease;
+}
+
+.card__button-container:before {
+  position: absolute;
+  top: -137px;
+  left: -73px;
+  content: '';
+  height: 330px;
+  width: 266px;
+  opacity: 0;
+}

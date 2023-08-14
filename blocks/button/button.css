@@ -9,6 +9,7 @@
   color: #2D3040;
   background: #fff;
   border: none;
+  transition: all .4s ease;
 }
 
 .button:hover {

@@ -1,0 +1,5 @@
+.cards_place_new-arrivals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+}
