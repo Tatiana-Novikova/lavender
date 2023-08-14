@@ -1,10 +1,8 @@
-.card__description {
-  margin: 0;
+.card__dollar-sign {
   font-family: 'Playfair Display Regular';
   font-size: 25px;
-  font-weight: 900;
+  font-weight: 400;
   line-height: 33px;
   letter-spacing: 0.03em;
   text-align: center;
-  color: #2D3040;
 }

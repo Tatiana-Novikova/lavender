@@ -7,7 +7,7 @@
 }
     
 @font-face {
-  font-family: 'Raleway';
+  font-family: 'Raleway Medium';
   font-style:  normal;
   font-weight: 500;
   src: url("Raleway-Medium.woff2") format("woff2"),
@@ -15,8 +15,16 @@
 }
 
 @font-face {
-  font-family: 'Playfair';
+  font-family: 'Playfair Display Regular';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("PlayfairDisplay-Regular.woff2") format("woff2"),
+       url("PlayfairDisplay-Regular.woff") format("woff")
+}
+
+@font-face {
+  font-family: 'Playfair Display DC';
   font-style:  normal;
   font-weight: 700;
-  src: url("PlayfairDisplay-Bold.woff") format("woff"),
+  src: url("PlayfairDisplaySC-Bold.woff") format("woff")
 }

@@ -42,6 +42,7 @@
 @import url('../blocks/card/__content/card__content.css');
 @import url('../blocks/card/__title/card__title.css');
 @import url('../blocks/card/__description/card__description.css');
+@import url('../blocks/card/__dollar-sign/card__dollar-sign.css');
 @import url('../blocks/card/__price/card__price.css');
 @import url('../blocks/card/__description-container/card__description-container.css');
 @import url('../blocks/card/_place/card_place_our-bouquets.css');

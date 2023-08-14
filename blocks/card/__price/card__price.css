@@ -1,7 +1,8 @@
 .card__price {
   margin: 0;
+  font-family: 'Playfair Display DC';
   font-size: 40px;
-  font-weight: 900;
+  font-weight: 700;
   line-height: 40px;
   color: #2D3040;
 }
