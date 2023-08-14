@@ -1,5 +1,6 @@
 .title {
   font-family: 'Playfair';
   letter-spacing: 0.03em;
+  color: rgba(45, 48, 64, 1);
   cursor: default;
 }
