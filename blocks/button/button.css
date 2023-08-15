@@ -7,13 +7,13 @@
   letter-spacing: 0.03em;
   text-align: center;
   color: #2D3040;
-  background: #fff;
+  background: #ffffff;
   border: none;
   transition: all .4s ease;
 }
 
 .button:hover {
   cursor: pointer;
-  color: #fff;
+  color: #ffffff;
   background: #2D3040;
 }
