@@ -1,6 +1,7 @@
 .button {
   padding: 16px 94px 16px 79px;
-  font-family: 'Raleway';
+  width: 290px;
+  font-family: 'Raleway Regular';
   font-size: 20px;
   font-weight: 500;
   line-height: 23px;

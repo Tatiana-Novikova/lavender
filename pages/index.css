@@ -5,8 +5,6 @@
 
 @import url('../blocks/logo/logo.css');
 
-@import url('../blocks/section-title/section-title.css');
-
 @import url('../blocks/title/title.css');
 @import url('../blocks/title/_size/title_size_large.css');
 @import url('../blocks/title/_size/title_size_regular.css');
@@ -27,7 +25,6 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__link/header__link.css');
-@import url('../blocks/header/__cart-icon/header__cart-icon.css');
 @import url('../blocks/header/__nav/header__nav.css');
 
 @import url('../blocks/cards/cards.css');
@@ -55,7 +52,6 @@
 
 @import url('../blocks/fresh-flowers/fresh-flowers.css');
 @import url('../blocks/fresh-flowers/__subtitle/fresh-flowers__subtitle.css');
-@import url('../blocks/fresh-flowers/__title-container/fresh-flowers__title-container.css');
 
 @import url('../blocks/new-arrivals/new-arrivals.css');
 
