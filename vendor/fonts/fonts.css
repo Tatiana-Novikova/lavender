@@ -34,7 +34,7 @@
   font-family: 'Playfair Display Bold';
   font-style:  normal;
   font-weight: 700;
-  src: url("PlayfairDisplay-Bold.woff") format("woff2"),
+  src: url("PlayfairDisplay-Bold.woff") format("woff"),
 }
 
 @font-face {

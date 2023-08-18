@@ -1,9 +1,7 @@
 .fresh-flowers {
-  margin: 0 0 calc(200px - 102px) 0;
+  margin: 0 0 200px 0;
   padding: 296px 0 0 100px;
   min-height: calc(842px - 296px);
-  position: relative;
-  top: -102px;
   background-image: url('../../images/fresh-flowers.png');
   background-repeat: no-repeat;
   background-size: cover;

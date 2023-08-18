@@ -1,6 +1,7 @@
 .title_size_large {
   margin: 0 0 32px 0;
-  padding: 0;
+  max-height: max-content;
+  line-height: 95.98px;
   font-size: 72px;
   font-weight: 700;
   color: #ffffff;
