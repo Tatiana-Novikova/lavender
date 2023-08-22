@@ -1,7 +1,9 @@
 .title_size_regular {
   margin: 0;
+  font-family: 'Playfair Display Medium';
+  letter-spacing: 0.03em;
   font-size: 40px;
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 54px;
   text-align: center;
 }

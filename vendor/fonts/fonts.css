@@ -31,6 +31,14 @@
 }
 
 @font-face {
+  font-family: 'Playfair Display Medium';
+  font-style:  normal;
+  font-weight: 500;
+  src: url("PlayfairDisplay-Medium.woff2") format("woff2"),
+       url("PlayfairDisplay-Medium.woff") format("woff")
+}
+
+@font-face {
   font-family: 'Playfair Display Bold';
   font-style:  normal;
   font-weight: 700;
